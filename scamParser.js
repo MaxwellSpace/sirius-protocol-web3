@@ -26,7 +26,7 @@ readFile(path.resolve(scamAccounts), "utf8")
                     if (nextElement && id !== +nextElement.replace(/\"/g, "")) {
                         return ["   ", o, ', \n    "', id, '"'].join("");
                     } else {
-                        matches[i + 3] = id;
+                        matches[i + 4] = id;
                     }
                 }
             }
